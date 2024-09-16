@@ -6,13 +6,20 @@
     <title>Blog - Your Name</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- this comment just makes it look symmetric -->
+
 <body>
     <header>
         <nav>
-            <div>
-                <a href="index.html">Home</a>
-                <a href="projects.html">Projects</a>
-                <a href="blog.html">Blog</a>
+            <div class="container mx-auto">
+		    <div class="flex justify-center space-x-20 text-2xl text-gray-400">
+                	<a href="index.html">Home</a>
+                	<a href="projects.html">Projects</a>
+                	<a href="blog.html">Blog</a>
+		    </div>
             </div>
         </nav>
     </header>
